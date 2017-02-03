@@ -1,0 +1,27 @@
+<h2 id="datascience-challenge-4">DataScience Challenge 4</h2>
+
+
+
+<h1 id="starcraft"><em>StarCraft</em></h1>
+
+<p>Starcraft est un jeu vid&eacute;o de strat&eacute;gie en temps r&eacute;el pratiqu&eacute; lors de comp&eacute;titions internationales de sport &eacute;lectronique. Il permet &agrave; deux joueurs de s’affronter pour la domination militaire du territoire. Au d&eacute;but du jeu, chaque joueur choisit une des trois races disponibles qui ont diff&eacute;rentes capacit&eacute;s et styles de jeu. Les joueurs doivent r&eacute;colter des ressources pour produire des b&acirc;timents et des unit&eacute;s de combat.</p>
+
+<p>Contrairement &agrave; la plupart des jeux de strat&eacute;gie (&eacute;checs, jeu de go, …), l’ensemble du terrain de jeu n’est pas visible, et chaque joueur doit envoyer des &eacute;claireurs pour identifier le terrain et les positions de son adversaire pour prendre des d&eacute;cisions strat&eacute;giques rapidement et efficacement.</p>
+
+<p><a href="http://eu.blizzard.com/fr-fr/">Blizzard</a>, l’&eacute;diteur du jeu, et <a href="https://deepmind.com/">DeepMind</a>, le groupe de recherche en Intelligence Artificielle de Google qui a battu r&eacute;cemment le meilleur joueur de Go, ont annonc&eacute; la <a href="https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/">cr&eacute;ation d’une <br>
+API</a> qui permettra de contrôler de mani&egrave;re programmatique le jeu &agrave; partir des informations visuelles. Cet environnement permettra de d&eacute;velopper des Intelligences Artificielles capables de r&eacute;soudre des probl&egrave;mes plus proche de la complexit&eacute; des conditions r&eacute;elles (ex: voiture autonomes).</p>
+
+<p>Pour pr&eacute;parer l’av&egrave;nement de cette plateforme open source, nous allons, dans ce DataScience Challenge, pr&eacute;dire la victoire des joueurs humains &agrave; partir des logs du jeu.</p>
+
+<p>Les donn&eacute;es des matches ont &eacute;t&eacute; t&eacute;l&eacute;charg&eacute;es sur <a href="http://ggtracker.com/matches">ggtracker</a>, une plateforme d’analyse statistique des replays des joueurs inscrits. Les actions des joueurs ont &eacute;t&eacute; extraites &agrave; l’aide de l’utilitaire <a href="https://github.com/icza/sc2gears">sc2gears</a>. Les fichiers texte ont &eacute;t&eacute; convertis au format csv &agrave; l’aide d’un script PowerShell. Les donn&eacute;es ont &eacute;t&eacute; extraites par un script Python. Le jeu de donn&eacute;es <code>sc2_dataset_5mins.csv</code> est compos&eacute; de 240 variables issues de 34579 matches jou&eacute;s. <br>
+La cible &agrave; pr&eacute;dire est le vainqueur du match indiqu&eacute; dans la variable <code>_p1_win_game</code>.</p>
+
+<pre><code>      \ \
+     __\_\
+       \__/`/`
+      ''  " "
+</code></pre>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
