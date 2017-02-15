@@ -1,0 +1,122 @@
+<h2 id="datascience-challenge-5">DataScience Challenge 5</h2>
+
+
+
+<h1 id="quel-langage-parlent-les-prot&eacute;ines"><em>Quel langage parlent les prot&eacute;ines ?</em></h1>
+
+<p>Un article r&eacute;cent dans <a href="https://web.archive.org/web/20161205231341/http://what-if.xkcd.com/153/">xkcd what-if</a> pose une question amusante &agrave; propos du plus long mot anglais qu’on peut constituer avec l’alphabet des abreviations des 20 acides amin&eacute;s qui constituent les prot&eacute;ines. Cela m’a inspir&eacute; une question encore plus amusante: <strong>Quel langage parlent les prot&eacute;ines  ?</strong></p>
+
+<p>Les s&eacute;quences des prot&eacute;ines humaines sont connues et disponibles sur <a href="http://www.uniprot.org/proteomes/UP000005640">uniprot</a>. Elles sont encod&eacute; gr&acirc;ce a un alphabet de 20 lettres qui sont:</p>
+
+<table>
+<thead>
+<tr>
+  <th align="left">Nom</th>
+  <th align="right">lettre</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="left">Alanine</td>
+  <td align="right">A</td>
+</tr>
+<tr>
+  <td align="left">Arginine</td>
+  <td align="right">R</td>
+</tr>
+<tr>
+  <td align="left">Asparagine</td>
+  <td align="right">N</td>
+</tr>
+<tr>
+  <td align="left">Acide Aspartique</td>
+  <td align="right">D</td>
+</tr>
+<tr>
+  <td align="left">Cysteine</td>
+  <td align="right">C</td>
+</tr>
+<tr>
+  <td align="left">Acide Glutamique</td>
+  <td align="right">E</td>
+</tr>
+<tr>
+  <td align="left">Glutamine</td>
+  <td align="right">Q</td>
+</tr>
+<tr>
+  <td align="left">Glycine</td>
+  <td align="right">G</td>
+</tr>
+<tr>
+  <td align="left">Histidine</td>
+  <td align="right">H</td>
+</tr>
+<tr>
+  <td align="left">Isoleucine</td>
+  <td align="right">I</td>
+</tr>
+<tr>
+  <td align="left">Leucine</td>
+  <td align="right">L</td>
+</tr>
+<tr>
+  <td align="left">Lysine</td>
+  <td align="right">K</td>
+</tr>
+<tr>
+  <td align="left">Methionine</td>
+  <td align="right">M</td>
+</tr>
+<tr>
+  <td align="left">Phenylalanine</td>
+  <td align="right">F</td>
+</tr>
+<tr>
+  <td align="left">Proline</td>
+  <td align="right">P</td>
+</tr>
+<tr>
+  <td align="left">Serine</td>
+  <td align="right">S</td>
+</tr>
+<tr>
+  <td align="left">Threonine</td>
+  <td align="right">T</td>
+</tr>
+<tr>
+  <td align="left">Tryptophane</td>
+  <td align="right">W</td>
+</tr>
+<tr>
+  <td align="left">Tyrosine</td>
+  <td align="right">Y</td>
+</tr>
+<tr>
+  <td align="left">Valine</td>
+  <td align="right">V</td>
+</tr>
+</tbody></table>
+
+
+<p>Voici, par example, la s&eacute;quence d’une prot&eacute;ine connue, l’insuline, dans laquelle on peut identifier le mot <code>VEAL</code> (veau en anglais) ou <code>GIVE</code> (donner en anglais).</p>
+
+<blockquote>
+  <p>sp|P01308|INS_HUMAN Insulin OS=Homo sapiens GN=INS PE=1 SV=1 <br>
+  <code>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHL</code><strong>VEAL</strong><code>YLVCGERGFFYTP</code> <br>
+  <code>KTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKR</code><strong>GIVE</strong><code>QCCTSICSLYQ</code> <br>
+  <code>LENYCN</code></p>
+</blockquote>
+
+<p>Le challenge va donc consister &agrave; identifier dans le prot&eacute;ome le nombre maximum de mots des diff&eacute;rentes langues internationnales. Pour g&eacute;n&eacute;rer les dictionnaires des diff&eacute;rentes langues, vous pouvez utiliser les livres du domaine public h&eacute;berg&eacute; sur <a href="https://www.gutenberg.org/catalog/">project Guntenberg</a>.</p>
+
+<pre><code>  . .
+   \|    o
+    o__ /
+   /   O
+.-o    | 
+ .'`.  o
+</code></pre>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
