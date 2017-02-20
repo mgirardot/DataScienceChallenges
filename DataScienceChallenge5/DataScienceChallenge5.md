@@ -3,7 +3,7 @@
 
 Un article récent dans [xkcd what-if](https://web.archive.org/web/20161205231341/http://what-if.xkcd.com/153/) pose une question amusante à propos du plus long mot anglais qu'on peut constituer avec l'alphabet des abreviations des 20 acides aminés qui constituent les protéines. Cela m'a inspiré une question encore plus amusante: **Quel langage parlent les protéines de notre corps ?**
 
-Les séquences des protéines humaines sont connues et disponibles sur [uniprot](http://www.uniprot.org/proteomes/UP000005640). Elles sont encodé grâce a un alphabet de 20 lettres qui sont:
+Les séquences des protéines humaines sont connues et disponibles sur [uniprot](http://www.uniprot.org/proteomes/UP000005640). Elles sont encodé grâce a un alphabet de 20 lettres qui est:
 
 |Nom    | lettre|
 |:------|------:|
@@ -28,7 +28,7 @@ Les séquences des protéines humaines sont connues et disponibles sur [uniprot]
 | Tyrosine | Y   |
 | Valine | V   |
 
-Voici, par example, la séquence d'une protéine connue, l'insuline, dans laquelle on peut identifier le mot `VEAL` (veau en anglais) ou `GIVE` (donner en anglais).
+Voici, par exemple, la séquence d'une protéine connue, l'insuline, dans laquelle on peut identifier le mot `VEAL` (veau en anglais) ou `GIVE` (donner en anglais).
 
 >sp|P01308|INS_HUMAN Insulin OS=Homo sapiens GN=INS PE=1 SV=1
 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHL**VEAL**YLVCGERGFFYTPKTRREAED
